@@ -303,6 +303,7 @@ section {
 ul.timeline {
     list-style-type: none;
     position: relative;
+    z-index: 1;
 }
 ul.timeline:before {
     content: ' ';
@@ -347,12 +348,7 @@ ul.timeline > li:before {
 }
 
 
-@media (max-width: 767.98px) { .card-number{
-    text-align: end;
-    font-size: 30px;
-    opacity: 100%;
-}
-}
+
 
 
 .page-footer {
@@ -395,3 +391,39 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f1f1f', end
 .text-footer-c{
     color: white;
 }
+
+
+
+
+@media (max-width: 992px) {
+
+    h2.card-tite {
+        font-size: 8px;
+    }
+
+    h3.card-text {
+        font-size: 14px;
+    }
+
+    
+
+}
+
+
+@media (max-width: 767.98px) { .card-number{
+    text-align: end;
+    font-size: 30px;
+    opacity: 100%;
+
+    
+
+}
+
+#carta {
+    margin-bottom: 20px;
+    height: 40vh;
+}
+
+
+}
+
